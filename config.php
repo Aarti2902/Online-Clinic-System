@@ -1,0 +1,9 @@
+<?php
+#session_start();
+$dbhost='localhost';
+$dbname='project';
+$dbusername='root';
+$dbpassword='';
+$port=3306;
+$con=mysqli_connect($dbhost,$dbusername,$dbpassword,$dbname,$port);
+?>
